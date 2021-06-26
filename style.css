@@ -4,16 +4,131 @@ html{
 
 .background{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-image: url('images/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 }
 
-.product{
-    width: 100%;
-    height: 100vh;
-    background-image: url('images/bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.navbar{
+    margin-bottom: 100px;
+
+    
+}
+
+
+
+.dark-button{
+    background-color: rgb(27, 27, 27);
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.dark-button i{
+    font-size: 15px;
+
+}
+
+.carousel-item p{
+    font-size: 18px;
+}
+
+.carousel-indicators li{
+    background-color: #CECECE !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    opacity: 1 !important;
+
+}
+
+.carousel-indicators  .active{
+    background-image:linear-gradient(45deg, #FF9C35, #FFD019) !important;
+
+}
+
+.see-more{
+    color: #FF9D00;
+}
+
+.card-footer{
+    background-color: #ffffff !important;
+    border: none !important;
+    border-radius: 20px !important;
+
+}
+
+.card-body p{
+font-size: 15px;
+}
+
+.card{
+    border: none !important;
+    border-radius: 20px !important;
+    box-shadow: 10px 10px 30px lightgray;
+
+}
+
+.smartphone{
+    margin-bottom: 100px;
+}
+
+.laptop{
+    margin-bottom: 100px;
+}
+
+
+.categories h3{
+    position: relative;
+}
+.categories h3::after{
+    content: '';
+    width: 10%;
+    height: 7px;
+    background-image: linear-gradient(45deg, #FF9C35, #FFD019);
+    position: absolute;
+    left: 45%;
+    top:50px;
+    border-radius: 40px;
+
+
+}
+
+.dummy{
+    height: 500px;
+}
+
+.icon-box{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 30px lightgray;
+
+}
+
+
+@media (max-width:768px){
+.icon-box{
+    width: 100% !important;
+}
+
+.first-box{
+    margin-top: 50px;
+}
+
+.pale{
+    display:none;
+}
+
+.smartphone{
+    margin-top: 100px !important;
+}
+
+
 }
